@@ -1,0 +1,185 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("img/batik2.jpg") no-repeat center center fixed;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.header .judul {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.header ul li {
+    display: inline-block;
+    margin: 20px 5px 0 5px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #d59027;
+    padding: 11px;
+}
+
+.header a:hover {
+    background-color: #d67558;
+    color: black;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.button1{
+    float: right ;
+    background-color: #d67558;
+    border: none;
+    color: white;
+    padding: 5px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.button2 {
+    background-color: #d67558;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.button1:hover,
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+.header1 {
+    padding: 0 50px;
+}
+
+.isi1,
+.nim {
+    padding: 20px 50px 60px 50px;
+    border-radius: 50px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+h3 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #3d1002;
+}
+
+.footer {
+    background-color: #d67558;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 50px 50px;
+}
+
+.footer p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.form {
+    padding: 20px;
+    margin: 0 200px;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+}
+
+.form label,
+.form textarea,
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.form input[type=submit] {
+    background-color: #d67558;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto;
+}
+
+.form input[type=submit]:hover {
+    background-color: #bb411d;
+}
+
+.bag1,
+.bag0 {
+    text-indent: 50px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-right: 50px;
+}
+.footer2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer2 ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.footer2 a {
+    text-decoration: none;
+    color: #eba483;
+    padding: 3px;
+}
+
+.footer2 a:hover {
+    background-color: #fff;
+    color: #333;
+    border-radius: 50px;
+}
